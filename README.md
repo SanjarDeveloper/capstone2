@@ -32,26 +32,33 @@ It seamlessly integrates OpenAI’s APIs to transcribe, interpret, and visualize
 ## 🖼️ Example Workflow
 
 ### 🎧 1. Upload and Configure  
-![Step 1: Upload](screenshots/step1.png)  
-*Enter API key → Upload your audio file.*
+<img width="1592" height="765" alt="1" src="https://github.com/user-attachments/assets/87342917-a849-4574-a620-4ba4aee007bd" />
+
+>Enter API key → Upload your audio file.
 
 ---
 
 ### 📝 2. Transcription  
-![Step 2: Transcription](screenshots/step2.png)  
-*Speech converted to text using Whisper-1.*
+<img width="732" height="203" alt="2" src="https://github.com/user-attachments/assets/5ba390e3-f372-4863-9447-83802a57edc0" /> 
+
+
+>Speech converted to text using Whisper-1.
 
 ---
 
 ### 🧩 3. Prompt Generation  
-![Step 3: Prompt](screenshots/step3.png)  
-*GPT-3.5-Turbo enhances your words into a vivid DALL·E prompt.*
+<img width="735" height="416" alt="3" src="https://github.com/user-attachments/assets/477c0ea0-1f5f-4678-bba8-aed85c158806" />
+
+>GPT-3.5-Turbo enhances your words into a vivid DALL·E prompt.
 
 ---
 
 ### 🌅 4. Image Output  
-![Step 4: Output](screenshots/step4.png)  
-*DALL·E 3 generates your unique image + full workflow summary.*
+<img width="719" height="720" alt="4" src="https://github.com/user-attachments/assets/9eef325a-221e-464b-90c7-1309995a6f4a" />  
+<img width="732" height="547" alt="5" src="https://github.com/user-attachments/assets/015e2dff-aa34-4ae9-901d-0488fa5cf99d"/>
+  
+
+>DALL·E 3 generates your unique image + full workflow summary.
 
 ---
 
@@ -66,7 +73,7 @@ cd capstone2
 ### 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit openai pillow python-dotenv
 ```
 
 ### 3. Start the app:
